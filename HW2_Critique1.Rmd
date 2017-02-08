@@ -1,20 +1,22 @@
 ---
-title: "Homework Assignment 2: Critique1"
+title: 'Homework Assignment 2: Critique 1'
 author: "Alyssa Monda"
 date: "2/8/2017"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+Samuels et al. (2015) was written to address the implementation of the Electronic Health Record (EHR) following the enaction of the Health Information Technology for Economic and Clinical Health Act in 2009. The purpose of this article is to explain the opportunities and challenges from the perspective of "a non-informatics nurse researcher" (Samuels et al., 2015, p.1285). Though the article presents a superficial view of several ideas it addresses many of the key issues a "non-informatics nurse researcher" needs to know when beginning to use the EHR as a new data collection method. As more hospitals comply with the Meaningful Use (MU) standards it will be vitally important for nurses to have the ability to navigate these systems in order to conduct their research in innovative ways. 
+The authors begin by explaining the challenges involved with using the EHR; focusing first on implementation. Although MU standards require use of the EHR, there is no standardized terminology or required structure of documentation fields. The lack of uniformity presents a challenge to researchers trying to abstract data from multiple platforms with different coding structures; ultimately affecting data integrity and reliability. The second challenge the paper focuses on is the advantages/disadvantages of data presentation through the use of both structured forms (i.e. drop down lists, checkboxes) and unstructured forms (freetext, videos, pictures, emails). Data security and confidentiality is the final challenge addressed by Samuels et al. The added complexity of HIPPA, confidentiality agreements, de-identification, and ultimately the unknown security of digitized data presents new challenges regarding access to protected health information. The authors also address the opportunities of exploring large databases combined with data mining techniques. Samuels et al. argues the use of big data will alter traditional research paradigms by allowing for the testing of new theories though the use of predictions and confidence intervals from these naturally occuring "datasets" with information from "100% of the population" (p.1291).
+The authors make several claims about the challenges and opportunities associated with the use of the EHR for research, however these claims are not supported by an abundance of evidence. For example they present an argument addressing the issue of the reductionist perspective, asserting the patient experience and clinical thinking is lost when data is presented in unconnected, task oriented fields. However, there is no evidence in the paper of this being true. As a nurse I found the structured fields helpful in forcing me to critically decide between two closely related conditions or "structured fields". This claim would have been better supported with the presentation of examples or studies showing the amount of times providers chose ‘other’ writing in an option rather than using the standard choices. While their arguments were logical, well written, and convincing, they could have been stronger if backed by evidence showing the extent to which these challenges exist in practice. That being said, the article did fulfill its purpose in presenting the opportunities and challenges of using the EHR from a "non-informatics nurse researcher" perspective. Samuels et al. gave a wide overview of the innovative adaptations nurse researchers will have to take to as technology continues to evolve and the amount of data available continues to grow. 
+The implications identified by the authors were aligned with their previously discussed purposes. They remind researchers about the timelines for negotiation of data agreements, IRB approval, EHR training, the need for understanding of how the data was entered into the EHR (real time or back dated) as well as the need for well defined variables and coding methods. Samuel's et al. continues to discuss the need for colleagues trained in informatics and custom programs for data abstraction.. In addition to the implications discussed by the authors I would add that the continuing education of nurse researchers on informatics and the evolution of the EHR is a necessity to those involved in research. It is through the innovation of knowledgable researchers that this abdundance of data can be used to its full capacity.  
 
-## R Markdown
+##References
+Samuels, J. G., McGrath, R. J., Fetzer, S. J., Mittal, P., & Bourgoine, D. (2015). Using the Electronic Health Record in Nursing Research Challenges and Opportunities. Western journal of nursing research, 0193945915576778. (http://journals.sagepub.com/doi/pdf/10.1177/0193945915576778).
 
-Samuels et al. (2015) 
-
-
-The markdown file used to create this pdf can be found at [https://github.com/amonda/N741_Critiques] (https://github.com/amonda/N741_Critiques). 
-
-##References 
-Samuels, J. G., McGrath, R. J., Fetzer, S. J., Mittal, P., & Bourgoine, D.  (2015). Using the Electronic Health Record in Nursing Research Challenges     and Opportunities. Western journal of nursing research, 0193945915576778.     doi:10.1177/0193945915576778
+The markdown file for this assignment can be found at: <https://github.com/amonda/N741_Critiques>.
